@@ -28,6 +28,7 @@ $(call inherit-product, vendor/banana/config/common.mk)
 BANANA_BUILD_TYPE := OFFICIAL
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_ENABLE_BLUR := true
+TARGET_HAS_UDFPS := true
 
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
