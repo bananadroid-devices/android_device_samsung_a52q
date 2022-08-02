@@ -47,4 +47,7 @@
         <item>2137</item>
         <item>119</item>
     </integer-array>
+
+    <!-- Screen off UDFPS -->
+    <bool name="config_supportScreenOffUdfps">true</bool>
 </resources>
