@@ -25,9 +25,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit some common BananaDroid stuff
 $(call inherit-product, vendor/banana/config/common.mk)
-BANANA_BUILD_TYPE := OFFICIAL
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.banana.maintainer=travarilo
+BANANA_MAINTAINER := travarilo
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_ENABLE_BLUR := true
 TARGET_HAS_UDFPS := true
