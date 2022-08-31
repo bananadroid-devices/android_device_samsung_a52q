@@ -45,6 +45,9 @@ PRODUCT_MODEL := SM-A525F
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
+# Recovery
+TARGET_USES_AOSP_RECOVERY := true
+
 PRODUCT_SHIPPING_API_LEVEL := 30
 
 # Vendor fingerprint
