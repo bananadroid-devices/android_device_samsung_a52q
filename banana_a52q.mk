@@ -27,6 +27,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, vendor/banana/config/common.mk)
 BANANA_MAINTAINER := travarilo
 TARGET_ENABLE_BLUR := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_HAS_UDFPS := true
 
 # Enable updating of APEXes
