@@ -29,6 +29,8 @@ BANANA_MAINTAINER := travarilo
 TARGET_ENABLE_BLUR := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_HAS_UDFPS := true
+TARGET_EXCLUDE_MATLOG := true
+TARGET_SUPPORTS_TOUCHGESTURES := true
 
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
